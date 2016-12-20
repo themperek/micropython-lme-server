@@ -1,11 +1,11 @@
 # micropython-lme-server
-LED matrix 8x8 online editor with self hosted server for [Micropython](https://micropython.org/).
+LED matrix 8x8 online editor with self-hosted server for [Micropython](https://micropython.org/).
 
 Tested on [ESP8266](https://en.wikipedia.org/wiki/ESP8266) [Wemos D1 mini](https://www.wemos.cc/product/d1-mini.html) module.
 
 Project based on [LED matrix 8x8 online editor](https://github.com/xantorohara/led-matrix-editor) using [Adafruit MAX7219 driver](https://github.com/adafruit/micropython-adafruit-max7219).
 
-##Instalation
+##Installation
 
 Install [Node.js](https://nodejs.org/)
 
@@ -25,4 +25,10 @@ node purify_css.js
 wget https://raw.githubusercontent.com/adafruit/micropython-adafruit-max7219/master/max7219.py
 ```
 
-Uplaod `style.min.css` `main.py` `web_server.py` `script.min.js` `index.html` `max7219.py` and restart.
+Upload `style.min.css` `main.py` `web_server.py` `script.min.js` `index.html` `max7219.py` and restart.
+
+###TODO:
+- save the animation to file and reply after boot
+- configure speed and repetition
+- reduce size
+- mobile friendly
