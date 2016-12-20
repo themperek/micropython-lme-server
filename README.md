@@ -1,7 +1,7 @@
 # micropython-lme-server
 LED matrix 8x8 online editor with self hosted server for [Micropython](https://micropython.org/).
 
-Tested on [ESP8266](https://en.wikipedia.org/wiki/ESP8266).
+Tested on [ESP8266](https://en.wikipedia.org/wiki/ESP8266) [Wemos D1 mini](https://www.wemos.cc/product/d1-mini.html) module.
 
 Project based on [LED matrix 8x8 online editor](https://github.com/xantorohara/led-matrix-editor) using [Adafruit MAX7219 driver](https://github.com/adafruit/micropython-adafruit-max7219).
 
