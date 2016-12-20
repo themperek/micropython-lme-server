@@ -1,5 +1,5 @@
 # micropython-lme-server
-LED matrix 8x8 online editor with slef hosted server for Micropython.
+LED matrix 8x8 online editor with self hosted server for Micropython.
 
 Tested on esp8266.
 
